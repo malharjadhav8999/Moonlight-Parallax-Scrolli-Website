@@ -80,7 +80,8 @@ section img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    pointer-events: none; /* none add kelyavar pointer ka distoy te tanmay la vicharaycha*/
+    pointer-events: none;
+        /* none add kelyavar pointer ka distoy te tanmay la vicharaycha */
 }
 
 section img#moon {
@@ -110,4 +111,21 @@ section img#mountains_front{
     z-index: 9;
     transform: translateY(100px); /* traforms the block - translate, rotate, skew, scale on x,y,z axis means in 2d and 3d */
 
+}
+
+.sec {
+    position: relative;
+    padding: 100px;
+    background: #1c0522;
+}
+
+.sec h2 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.sec p {
+    font-size: 1em;
+    color: #fff;
 }
