@@ -73,6 +73,17 @@ section {
     align-items: center;
 }
 
+/* part between top images and details */
+section::before {
+    content: '';    /* content comment kelya varche effect cha vicharaycha */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #1c0522, transparent);
+    z-index: 1000;
+}
+
 section img {
     position: absolute;
     top: 0;
