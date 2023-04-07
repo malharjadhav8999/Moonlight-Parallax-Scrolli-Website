@@ -73,6 +73,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 /* part between top images and details */
@@ -131,7 +132,6 @@ section img#mountains_front{
     position: relative;
     padding: 100px;
     background: #1c0522;
-    z-index: 15;
 }
 
 .sec h2 {
