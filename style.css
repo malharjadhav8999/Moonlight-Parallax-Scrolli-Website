@@ -15,6 +15,7 @@ class - .abc
 
 body {
     min-height: 100vh;
+    overflow-x: hidden;
     background: linear-gradient(#2b1055, #7597de);
 }
 
@@ -106,6 +107,7 @@ section img#mountains_front{
 
 #text {
     position: absolute;
+    right: -350px;
     color: #fff;
     white-space: nowrap;
     font-size: 7.5vw;
@@ -113,7 +115,7 @@ section img#mountains_front{
     /* margin-top: 200px; */
 }
 
-.btn {
+#btn {
     text-decoration: none;
     padding: 8px 30px;
     border-radius: 40px;
@@ -129,6 +131,7 @@ section img#mountains_front{
     position: relative;
     padding: 100px;
     background: #1c0522;
+    z-index: 15;
 }
 
 .sec h2 {
